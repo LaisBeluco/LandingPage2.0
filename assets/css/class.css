@@ -1,0 +1,26 @@
+.main-bg {
+  background-image: url("/assets/img/abstract-timekeeper.svg");
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.white-bg {
+  background: var(--white-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.main-space {
+  height: 6rem;
+}
