@@ -5,6 +5,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 /*
 font-family: 'Montserrat', sans-serif;
@@ -13,7 +14,7 @@ font-family: 'Roboto Mono', monospace;
 
 body {
   font-family: "Roboto Mono", monospace;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   color: var(--primary-color);
 }
 
@@ -31,6 +32,16 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
 a {
   text-decoration: none;
+}
+
+p {
+  margin-bottom: 2rem;
 }
