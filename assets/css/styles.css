@@ -6,7 +6,8 @@
   gap: var(--gap);
   height: 100vh;
 }
-.intro-text-content {
+.intro-text-content,
+.intro-img {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -16,4 +17,9 @@
   font-size: 6.5rem;
   margin-bottom: 3rem;
   text-transform: uppercase;
+}
+
+.intro-img img {
+  max-width: 100%;
+  height: auto;
 }
