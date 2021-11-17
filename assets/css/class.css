@@ -13,9 +13,7 @@
 .main-content {
   max-width: 120rem;
   margin: 0 auto;
-  padding: var(--gap);
-  padding-bottom: 0;
-  padding-top: 0;
+  padding: 10rem var(--gap);
 }
 
 .section {

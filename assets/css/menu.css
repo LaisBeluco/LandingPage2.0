@@ -12,6 +12,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .menu h1 {
